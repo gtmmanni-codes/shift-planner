@@ -14,7 +14,7 @@ Part-time delivery riders feel confident about how much work they will get befor
 - app.js: app logic
 
 ## How to run
-Open index.html in a browser. No installation or build step needed.
+Link -  https://unique-babka-4073d6.netlify.app 
 
 ## Built with
 HTML, CSS and JavaScript. Built with AI assistance (GitHub Copilot in VS Code) and tested manually.
