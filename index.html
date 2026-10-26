@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7f4">
+    <meta name="description" content="A private shift planner for delivery riders, built from your own logged shifts.">
+    <title>Shift Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <a class="brand" href="#" aria-label="Shift Planner home" data-action="home">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span>Shift Planner</span>
+        </a>
+        <p class="header-note">Your shifts. Your patterns.</p>
+      </header>
+      <div id="storage-notice" class="storage-notice" role="status" hidden></div>
+      <main id="app-main" tabindex="-1"></main>
+      <nav id="bottom-nav" class="bottom-nav" aria-label="Main navigation" hidden></nav>
+      <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+    </div>
+  </body>
+</html>
